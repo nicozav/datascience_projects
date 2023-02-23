@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 #Importing the housing dataframe
 
-df = pd.read_csv('/Users/nicholaszavala/Documents/Python/Datasets/Udemy/Python_DataScience/Tensor Flows/kc_house_data.csv')
+df = pd.read_csv('kc_house_data.csv')
 # %%
 
 df.head(15)
