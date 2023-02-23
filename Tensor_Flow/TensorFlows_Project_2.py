@@ -6,7 +6,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 # %%
 
-df = pd.read_csv('/Users/nicholaszavala/Documents/Python/Datasets/Udemy/Python_DataScience/Tensor Flows/cancer_classification.csv')
+df = pd.read_csv('cancer_classification.csv')
 # %%
 
 df.head(10)
