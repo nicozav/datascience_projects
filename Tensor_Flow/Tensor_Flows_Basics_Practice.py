@@ -7,7 +7,7 @@ import numpy as np
 import seaborn as sns
 # %%
 
-df_1 = pd.read_csv('/Users/nicholaszavala/Documents/Python/Datasets/Udemy/Python_DataScience/Tensor Flows/fake_reg.csv')
+df_1 = pd.read_csv('fake_reg.csv')
 # %%
 
 df_1.head(5)
