@@ -15,7 +15,7 @@ import seaborn as sns
 
 #importing the csv that will be used for the data frame
 
-data_1 = pd.read_csv('/Users/nicholaszavala/Documents/Python/Datasets/Udemy/Python_DataScience/Linear Regression/USA_Housing.csv')
+data_1 = pd.read_csv('USA_Housing.csv')
 # %%
 
 #Confirming and querying data frame information
