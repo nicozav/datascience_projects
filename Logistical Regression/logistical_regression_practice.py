@@ -9,7 +9,7 @@ import seaborn as sns
 
 #Loading in the titanic training file for the dataframe
 
-train = pd.read_csv('/Users/nicholaszavala/Documents/Python/Datasets/Udemy/Python_DataScience/Logistical Regression/titanic_train.csv')
+train = pd.read_csv('titanic_train.csv')
 # %%
 
 train.info()
@@ -17,7 +17,7 @@ train.info()
 train.head(5)
 # %%
 
-test = pd.read_csv('/Users/nicholaszavala/Documents/Python/Datasets/Udemy/Python_DataScience/Logistical Regression/titanic_test.csv')
+test = pd.read_csv('titanic_test.csv')
 # %%
 
 test.info()
